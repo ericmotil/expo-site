@@ -1,0 +1,104 @@
+/*---------------------
+	Buttons
+----------------------*/
+button { background: inherit; }
+.btn {
+	font-size: 1em;
+  padding: 10px 25px;
+  border-radius: 4px;
+  letter-spacing: initial;
+
+  .transition(.3s); 
+
+  // Query
+  @media @sm { font-size: 1.125em }
+  @media @xl { font-size: 1em; }
+
+}
+
+.btn-lg {
+	padding: 20px 15px;
+	font-size: 18px;
+	border-radius: 2px;
+}
+
+
+
+// When multiple buttons stacked
+.btn-stack {
+	.btn { margin-bottom: 15px;}
+}
+
+// Size on container
+.btn-full { width: 100%; }
+
+// Primary buttpon
+.btn-primary {
+	background-color: @brand-primary;
+	border-color: transparent;
+
+	&:hover, &:active, &:focus {
+		background-color: darken(@brand-primary, 25%);
+		border-color: darken(@brand-primary, 25%);
+	}
+}
+
+.btn-blank {
+	background-color: transparent;
+	border-color: none;
+
+	&:hover, &:active, &:focus {
+		background-color: transparent;	
+	}
+}
+
+// Border white button
+.btn-border-white {
+  border: 1px solid #fff;
+  color: #fff;
+
+	&:hover, &:active, &:focus {
+    color: #333;
+    border-color: #fff;
+    background-color: #fff;
+  }
+}
+
+.btn-border-font {
+	border: 1px solid @border-color;
+	color: @body-font-color;
+	background-color: transparent;
+
+	&:hover, &:active, &:focus {
+    color: #fff;
+    border-color: darken(@body-font-color, 1%);
+    background-color: darken(@body-font-color, 1%);
+  }
+}
+
+// Go to apple store
+.btn-apple {
+	background-color: black;
+	border: 1px solid white;
+	background-image: url('../../img/apple-store.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	&:hover {
+		opacity: 0.8;
+		border-color: @brand-primary;
+	}
+}
+
+// Default
+.btn-default {
+	background-color: #D7D7D7;
+	border-color: none;
+	color: #fff;
+
+	&:hover, &:active, &:focus {
+		background-color: darken(#D7D7D7, 15%);	
+		color: #fff;
+	}
+}

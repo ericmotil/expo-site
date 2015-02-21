@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+	<!-- Head -->
+	<!-- @import ../includes/head.kit -->
+
+	<body class="interior page-user-profile">
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-- Navigation -->
+		<section id="navigation">
+			<div id="nav" class="navbar navbar-expo navbar-top" role="navigation">
+				<div class="container">
+
+					<!-- Nav header -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand to-div" href="index.html"><img src="img/logo-dark.png" alt="Expo logo"/></a>
+					</div>
+
+					<!-- Nav menu -->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right hidden-xs">
+							<li><a href="">Profile</a></li>
+							<li><a href="">My Files</a></li>
+							<li><a href="">Upgrade Plan</a></li>
+							<li><a href="">Sign Out</a></li>
+							<li><a href="" class="nav-profile-img">
+								<img class="img-circled" src="img/shared-0.png"/>
+							</a></li>
+						</ul>
+						<div id="m-nav">
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#invite" class="to-div">Signup for free</a>
+								</li>
+								<li>
+									<a href="#pricing" class="to-div">Pricing options</a>
+								</li>
+								<li>
+									<a href="">Contact</a>
+								</li>
+							</ul>
+
+							<p class="sub-text">A product of EnchanceWorks Inc. &copy; 2014-2015. All right reserve</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section> <!-- /navigation -->
+
+		<!-- Main content -->
+		<section class="content-main">
+			<div class="container-md">
+				<div class="row">
+
+					<!-- Aside -->
+					<div class="col-sm-4 aside">
+						<div class="well card car">
+
+							<div class="card-header">
+								<div class="row">
+									<div class="col-md-5">
+										<img class="img-circle profile-img block-center" src="img/shared-0.png"/>
+									</div>
+									<div class="col-md-7 text-center">
+										<a href="" class="btn btn-default swap-photo">Swap Photo</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="card-info">
+								<h1>Travis Vignon</h1>
+								<p>Keen Technology</p>
+							</div>
+
+							<div class="card-info-extra">
+								<p class="card-email">travis-vignon@keen.com</p>
+								<p class="activity">Last activity today at 9:48 pm</p>
+							</div>
+						</div>
+
+						<div class="well card-upgrade">
+							<div class="card-header">
+								<img class="add-users" src="img/card-add-users.jpg"/>
+							</div>
+							<p class="space-btm">Feeling a little lonely? Consider upgrading your account to add teammates, custom branding and have access to new features!</p>
+							<a href="" class="btn btn-primary">Upgrade Now</a>
+						</div>
+						<p class="sub-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+					</div>
+
+					<!-- Main -->
+					<div class="col-sm-8">
+						<section id="user-profile" class="space-btm">
+
+							<header class="clearfix">
+								<h2 class="heading pull-left">User Profile</h2>
+								<a href="" class="edit pull-right">Edit</a>
+							</header>
+
+							<div class="well">
+								<form id="form-user-profile">
+								  <div class="form-group">
+								    <label class="" for="userProfileFirstName">First Name</label>
+								    <input type="text" class="form-control input-lg" id="userProfileFirstName" placeholder="Travis">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userProfileLastName">Last Name</label>
+								    <input type="" class="form-control input-lg" id="userProfileLastName" placeholder="Vignon">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userProfileEmailAddress">Email Address</label>
+								    <input type="text" class="form-control input-lg" id="userProfileEmailAddress" placeholder="travis.vignon@keen.com">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userProfilePhoneNumber">Phone Number</label>
+								    <input type="phone" class="form-control input-lg" id="userProfilePhoneNumber" placeholder="(615) 234-6453">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userProfileCompanyName">Company Name</label>
+								    <input type="text" class="form-control input-lg" id="userProfileCompany" placeholder="Keen Technology">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="signUpCompanySize">City / State</label>
+								    <input type="text" class="form-control input-lg" id="userProfileCity" placeholder="Nashville, TN">
+								  </div>
+								</forn>
+							</div>
+						</section>
+
+
+						<section id="user-plan" class="space-btm">
+
+							<header class="clearfix">
+								<h2 class="heading pull-left">Plan &amp; Billing</h2>
+								<a href="" class="edit pull-right">Upgrade your account</a>
+							</header>
+
+							<div class="well">
+								<form id="form-user-plan">
+								  <div class="form-group">
+								    <label class="" for="userPlanPlan">Your Plan</label>
+								    <input type="text" class="form-control input-lg" id="userPlanPlan" placeholder="Basic (details for basic plan)">
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userPlanPayment">Payment Info</label>
+								    <input type="" class="form-control input-lg" id="userPlanPayment" placeholder="Visa *** 9247"><a class="btn btn-primary">Add a Card</a>
+								  </div>
+								  <div class="form-group">
+								    <label class="" for="userPlanHistory">History</label>
+								    <input type="text" class="form-control input-lg" id="userPlanHistory" placeholder="Account crested 9/23/2014">
+								  </div>
+								</forn>
+							</div>
+							<a href="" class="sub-text">Cancel your account</a>
+						</section>
+					</div>
+
+				</div>
+			</div>
+		</section> <!-- /main-content -->
+
+		<!-- Footer -->
+		<!-- @import ../includes/footer.kit -->
+
+		<!-- End -->
+		<!-- @import ../includes/end.kit -->
+</body>
+</html>

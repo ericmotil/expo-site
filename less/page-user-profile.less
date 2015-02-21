@@ -1,0 +1,118 @@
+.page-user-profile {
+
+	// Main content
+	.content-main { margin-top: 50px; }
+
+
+	.nav-profile-img {
+		padding: 0;
+		img {max-width: 50px; }
+	}
+
+	// Type
+	.heading {
+		font-size: 1.9em;
+		margin-bottom: 15px;
+	}
+
+
+	// Forms
+	.form-group {
+		border-bottom: 1px solid @border-color;
+		margin-left: -19px;
+		margin-right: -19px;
+		padding: 15px 19px;
+
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+
+		.btn { margin-left: 15px; }
+	}
+
+	label {
+		font-weight: 300;
+		font-size: 18px;
+		padding-left: 16px;
+	}
+
+	.form-control {
+		border: none;
+		font-size: 26px;
+
+		// Placeholders
+		&::-webkit-input-placeholder { color: @font-heading-color; }
+		&:-moz-placeholder           { color: @font-heading-color; }
+		&::-moz-placeholder          { color: @font-heading-color; }
+		&:-ms-input-placeholder      { color: @font-heading-color; }
+	}
+
+	.aside {
+	}
+
+
+	// Card header
+	.card-header {
+		.clearfix();
+		padding-bottom: 20px;
+		border-bottom: 1px solid @border-color;
+		margin-bottom: 20px;
+
+		.profile-img {
+			width: 100%;
+			max-width: 85px;
+			border: 4px solid @border-color;
+		}
+
+		.swap-photo {
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin-top: 20px;
+		}
+	}
+
+
+	// Card Info
+	.card-info {
+		margin-bottom: 30px;
+		h1 {
+			font-weight: 300;
+			font-size: 21px;
+			margin-bottom: 5px;
+		}
+
+		p {
+			font-weight: 300;
+			font-size: 18px;
+		}
+	}
+
+	// Extra info
+	.card-info-extra {
+		p {
+			font-weight: 500;
+			font-size: 0.75em;
+			line-height: 1.5em;
+			margin: 0;
+		}
+
+		.activity { font-style: italic; }
+	}
+
+
+	// Upgrade account card
+	.card-upgrade {
+
+		.card-header { margin-right: -19px; }
+		p {
+			color: @font-heading-color;
+			font-size: 0.8em;
+			line-height: 1.4em;
+		}
+	}
+
+
+}
