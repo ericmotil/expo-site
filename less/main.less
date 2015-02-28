@@ -118,8 +118,9 @@ a {
 	line-height: 1.5em;
 }
 
-.text-white { color: #fff; }
-.text-trans { color: transparent; }
+.text-white   { color: #fff; }
+.text-trans   { color: transparent; }
+.text-primary { color: @brand-primary; }
 
 .sub-text {
 	color: #ccc;
@@ -372,14 +373,19 @@ a {
 
 // Apple button home
 .hero .btn-apple { margin-right: 15px; }
+.hero .btn-border-white {
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
 
 .hero-content { .vertical-center(); }
 .hero-text {
+	max-width: 450px;
 	color: darken(#fff, 10%);
-	margin-bottom: 40px;
-	line-height: 1.2em;
-	font-size: 1.4em;
+	margin-bottom: 30px;
+	line-height: 1.3em;
+	font-size: 1.2em;
 }
 
 
@@ -393,22 +399,23 @@ a {
 
   .get-box-content {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
   }
-  .box-logo {
-  	margin-bottom: 20px;
+
+  .soon-logos {
+  	max-width: 150px;
   }
 
   h2 {
+  	max-width: 550px;
+  	margin: 25px auto;
     color: #fff;
-    margin-bottom: 25px;
   }
 
   p {
   	margin-top: 20px;
     margin-bottom: 30px;
-    color: #A9ABAC;
   }
 
   #cloud {
@@ -495,7 +502,7 @@ a {
 		height: 100%;		
 	}
 
-	.flex-control-nav { bottom: 50px; }
+	.flex-control-nav { bottom: 55px; }
 
 	.flex-direction-nav a {
 		visibility: hidden;
@@ -801,6 +808,8 @@ a {
 	padding-top: 60px;
 	padding-bottom: 60px;
 
+	.well { padding: 18px; }
+
 	.heading {
 		font-size: 2em;
 		color: #fff;
@@ -851,10 +860,11 @@ a {
 	}
 
 	.features {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 15px;
+		padding-bottom: 20px;
 
 		ul > li {
+			color: darken(@body-font-color, 30%);
 			margin-top: 10px;
 		}
 	}

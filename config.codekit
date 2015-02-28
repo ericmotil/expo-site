@@ -6559,7 +6559,7 @@
 		"outputAbbreviatedPath": "\/img\/soon-logos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/soon-logos@2x.png": {
 		"fileType": 32768,
@@ -6570,7 +6570,7 @@
 		"outputAbbreviatedPath": "\/img\/soon-logos@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/includes\/end.kit": {
 		"fileType": 2048,

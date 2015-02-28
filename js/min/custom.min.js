@@ -43,7 +43,7 @@ $(document).ready(function() {
   // Gets rid of flash on refresh
   setTimeout(function() {
     $('body').css('opacity', '1'); // Probably terrible to accessibility
-  }, 900);
+  }, 1000);
 });
 
 

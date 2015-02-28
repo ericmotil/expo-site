@@ -33,16 +33,16 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right hidden-xs">
 							<li><a href="#pricing" class="to-div">Pricing</a></li>
-							<!-- <li><a href="">Contact</a></li>
+							<li><a href="mailto:info@get-expo.com">Contact</a></li>
 							<li>
 								<a href="#" type="button" class="btn btn-sm btn-blank" data-toggle="modal" data-target=".modal-log-in">Login</a>
 							</li> 
 							<li>
 								<button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".modal-sign-up">Sign Up</button>
+							</li>
+							<!-- <li>
+								<button href="#invite" class="btn btn-sm btn-primary to-div">Signup</button>
 							</li> -->
-							<li>
-									<button href="#invite" class="btn btn-sm btn-primary to-div">Signup</button>
-								</li>
 						</ul>
 						<div id="m-nav">
 							<ul class="nav navbar-nav navbar-right">
@@ -52,9 +52,7 @@
 								<li>
 									<a href="#pricing" class="to-div">Pricing options</a>
 								</li>
-								<li>
-									<a href="">Contact</a>
-								</li>
+								<li><a href="mailto:info@get-expo.com">Contact</a></li>
 							</ul>
 
 							<p class="sub-text">A product of EnchanceWorks Inc. &copy; 2014-2015. All right reserve</p>
@@ -66,21 +64,24 @@
 		</section> <!-- /navigation -->
 
 		<!-- Hero flexslider -->
+		<!-- $heroVideoLink = https://vimeo.com/120017275 -->
+		<!-- $heroAppleLink = https://appsto.re/us/RAzJW.i -->
 		<section id="flex-hero" class="hero">
 			<div class="flexslider">
 				<ul class="slides">
+					
 					<!-- First slide -->
 		    	<li style="background-image:url(img/bg-1.jpg)">
 		    		<div class="hero-content">
 							<div class="container-md">
 								<div class="row">
-									<div class="col-sm-8">
-										<h1 class="heading text-white">Sync Outside the Box</h1>
+									<div class="col-sm-9">
+										<h1 class="heading text-white">Sync Outside the Box &trade;</h1>
 										<p class="hero-text">Expo is the simplest way to organize, present, and share your content on the go.</p>
 										<!-- Desktop cta -->
 										<div class="hidden-xs">
-											<a href="" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
-											<a href="https://vimeo.com/85180374" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
+											<a href="<!-- $heroAppleLink -->" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
+											<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
 										</div>
 									</div>
 								</div>
@@ -93,13 +94,13 @@
 		    		<div class="hero-content">
 							<div class="container-md">
 								<div class="row">
-									<div class="col-sm-8">
+									<div class="col-sm-9">
 										<h1 class="heading text-white">Your Files. Reimagined.</h1>
 										<p class="hero-text">Expo transforms your existing file directory into a visual gallery, making it simple to find, organize, and use the content you need.</p>
 										<!-- Desktop cta -->
 										<div class="hidden-xs">
-											<a href="" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
-											<a href="https://vimeo.com/85180374" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
+											<a href="<!-- $heroAppleLink -->" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
+											<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
 										</div>
 									</div>
 								</div>
@@ -117,8 +118,8 @@
 										<p class="hero-text">Expo makes it easy to create a custom-branded environment to showcase all your digital content.</p>
 										<!-- Desktop cta -->
 										<div class="hidden-xs">
-											<a href="" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
-											<a href="https://vimeo.com/85180374" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
+											<a href="<!-- $heroAppleLink -->" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
+											<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
 										</div>
 									</div>
 								</div>
@@ -131,13 +132,13 @@
 		    		<div class="hero-content">
 							<div class="container-md">
 								<div class="row">
-									<div class="col-sm-8">
+									<div class="col-sm-9">
 										<h1 class="heading text-white">Mobilize Your Sales Force</h1>
 										<p class="hero-text">Expo enables your sales team to find the right content, have more engaging conversations, and share files like never before.</p>
 										<!-- Desktop cta -->
 										<div class="hidden-xs">
-											<a href="" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
-											<a href="https://vimeo.com/85180374" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
+											<a href="<!-- $heroAppleLink -->" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
+											<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
 										</div>
 									</div>
 								</div>
@@ -151,8 +152,10 @@
 			<!-- Mobile cta -->
 			<div class="visible-xs mobile-cta" class="clearfix">
 				<div class="container-sm btn-stack">
-					<button class="btn btn-block btn-border-white" data-toggle="modal" data-target=".modal-log-in">Login to account</button>
-					<button class="btn btn-block btn-primary" data-toggle="modal" data-target=".modal-sign-up">Signup for a free account</button>
+					<a href="<!-- $heroAppleLink -->" class="btn btn-apple"><span class="text-trans">Apple Store</span></a>
+					<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-white" title="Video">Watch the Video</a>
+					<!-- <button class="btn btn-block btn-border-white" data-toggle="modal" data-target=".modal-log-in">Login to account</button>
+					<button class="btn btn-block btn-primary" data-toggle="modal" data-target=".modal-sign-up">Signup for a free account</button> -->
 				</div>
 				<div class="mobile-band">
 					<a href="#organized" class="to-div">
@@ -166,11 +169,9 @@
 		<section id="get-box" class="hidden-xs clearfix">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-offset-3 col-md-6 get-box-content">
-						<img class="box-logo" src="img/logo-box.png" alt="Box logo"/>
-						<h2>Say Goodbye to the File Directory</h2>
-						<a href="http://box.com">Connect Expo to you Box account today.</a>
-						<p>Comming Soon...</p>
+					<div class="col-sm-offset-1 col-sm-10 get-box-content">
+						<h2>Expo transforms any cloud file directory into a custom mobile app for sales teams.</h2>
+						<p class="text-primary">Connect Expo to your <a href="http://box.com">Box</a> and <a href="http://dropbox.com">Dropbox</a> accounts today.</p>
 						<img class="soon-logos" src="img/soon-logos.png" />
 					</div>
 				</div>
@@ -213,7 +214,7 @@
 					<div class="col-sm-7 col-md-5 col-lg-6 presented-text">
 						<h2 class="heading">Presented perfectly</h2>
 						<p>Browse dynamic visual previews, and easily create seamless presentations using any of your content.</p>
-						<a href="https://www.youtube.com/watch?v=35FbwCIxT0g" class="fancybox-media btn btn-border-font" title="Video">Watch the Video</a>
+						<a href="<!-- $heroVideoLink -->" class="fancybox-media btn btn-border-font" title="Video">Watch the Video</a>
 					</div>
 
 					<!-- iPad slider -->
@@ -230,7 +231,6 @@
 				</div>
 			</div>
 		</section> <!-- /presented -->
-
 
 		<!-- Shared -->
 		<section id="shared">
@@ -270,8 +270,8 @@
 						</header>
 						<p class="space-btm">Share entire collections directly from the app, or flag multiple files for follow up on the fly.</p>
 						<div class="text-center">
-							<button href="#invite" class="btn btn-sm btn-primary to-div">Signup Now!</button>
-							<!-- <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".modal-sign-up">Signup Now!</button> -->
+							<!-- <button href="#invite" class="btn btn-sm btn-primary to-div">Signup Now!</button> -->
+							<button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".modal-sign-up">Signup Now!</button>
 						</div>
 					</div>
 				</div>
@@ -292,22 +292,23 @@
 					<div class="col-sm-4">
 						<div class="well">
 							<div class="plan">
-								<h3>Basic</h3>
+								<h3>Personal</h3>
 							</div>
 							<div class="cost">
-								<span class="dollars">$5</span>
-								<span class="cents">00</span>
-								<span class="time">Monthly</span>
+								<span class="dollars">Free</span>
+								<span class="cents"></span>
+								<span class="time"></span>
 							</div>
 							<div class="features">
 								<ul class="list-unstyled">
-									<li><span class="strong">Free</span> feature one</li>
-									<li><span class="strong">Unlimited</span> feature two</li>
-									<li><span class="strong">2x</span> feature three</li>
-									<li><span class="strong">100x</span>feature four</li>
+									<li><span class="strong"></span>1 User</li>
+									<li><span class="strong"></span>Synce Multiple Cloud Storage Accounts</li>
+									<li><span class="strong"></span>Unlimited Collections</li>
+									<li><span class="strong"></span>Presentation Mode</li>
+									<li><span class="strong"></span>Shared File Landing Pages</li>
 								</ul>
 							</div>
-							<a href="" class="btn btn-primary">Get Started</a>
+							<button type="button" class="btn btn-full btn-primary" data-toggle="modal" data-target=".modal-sign-up">Sign Up Now</button>
 						</div>
 					</div>
 
@@ -315,22 +316,23 @@
 					<div class="col-sm-4">
 						<div class="well">
 							<div class="plan">
-								<h3>Basic</h3>
+								<h3>Business</h3>
 							</div>
 							<div class="cost">
-								<span class="dollars">$5</span>
+								<span class="dollars">$8</span>
 								<span class="cents">00</span>
-								<span class="time">Monthly</span>
+								<span class="time">Monthly per user</span>
 							</div>
 							<div class="features">
 								<ul class="list-unstyled">
-									<li><span class="strong">Free</span> feature one</li>
-									<li><span class="strong">Unlimited</span> feature two</li>
-									<li><span class="strong">2x</span> feature three</li>
-									<li><span class="strong">100x</span>feature four</li>
+									<li><span class="strong"></span>Up to 100 Users</li>
+									<li><span class="strong"></span>No Set Up Costs</li>
+									<li><span class="strong"></span>Branding &amp; Customization</li>
+									<li><span class="strong"></span>Advanced User and Group Management</li>
+									<li><span class="strong"></span>Dedicated Support</li>
 								</ul>
 							</div>
-							<a href="" class="btn btn-primary">Get Started</a>
+							<button type="button" class="btn btn-full btn-primary" data-toggle="modal" data-target=".modal-sign-up">Get Started</button>
 						</div>
 					</div>
 
@@ -341,17 +343,18 @@
 								<h3>Enterprise</h3>
 							</div>
 							<div class="cost">
-								<p>Call for pricing</p>
+								<p>Contact for pricing</p>
 							</div>
 							<div class="features">
 								<ul class="list-unstyled">
-									<li><span class="strong">Free</span> feature one</li>
-									<li><span class="strong">Unlimited</span> feature two</li>
-									<li><span class="strong">2x</span> feature three</li>
-									<li><span class="strong">100x</span>feature four</li>
+									<li><span class="strong"></span>Unlimited Users</li>
+									<li><span class="strong"></span>Volume Discount Program</li>
+									<li><span class="strong"></span>Custom Integrations</li>
+									<li><span class="strong"></span>Private App Distribution and Custom App Icon</li>
+									<li><span class="strong"></span>API Access</li>
 								</ul>
 							</div>
-							<a href="" class="btn btn-primary">Get Started</a>
+							<a href="mailto:mailto:info@get-expo.com" class="btn btn-primary">Contact Us</a>
 						</div>
 					</div>
 
@@ -367,7 +370,7 @@
 				<div class="row text-center">
 					<img src="img/logo-drop.png" class="space-btm" alt="Expo logo"/>
 					<div class="col-sm-7 block-center">
-						<p> Get early access to EXPO. Enter you email address to recieve an exclusive invite.</p>
+						<p>Sign up to receive exclusive updates and early access to new features.</p>
 					</div>
 				</div>
 
